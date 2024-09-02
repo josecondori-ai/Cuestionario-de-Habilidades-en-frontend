@@ -1,5 +1,10 @@
 # Cuestionario de Habilidades en HTML, CSS y React 🎯
 
+
+
+https://github.com/user-attachments/assets/ca96c762-77a3-4499-83eb-2fb05ba6b155
+
+
 ## Visión General 👁️
 
 Este proyecto es un cuestionario interactivo que pone a prueba tus conocimientos en **HTML**, **CSS** y **React**. La aplicación está diseñada para mostrar mis habilidades en frontend mediante la creación de un sistema de preguntas de opción múltiple. El objetivo del cuestionario es proporcionar una experiencia educativa atractiva y dinámica mientras demuestro mis competencias técnicas en el desarrollo web.
@@ -17,12 +22,11 @@ Este proyecto es un cuestionario interactivo que pone a prueba tus conocimientos
 - **HTML5**: Estructura semántica del documento.
 - **CSS3**: Diseño y estilos responsivos.
 - **JavaScript (ES6+)**: Lógica de la aplicación.
-- **React.js**: Biblioteca de JavaScript para construir la interfaz de usuario.
 - **JSON**: Almacenamiento y manejo de las preguntas del cuestionario.
 
 ## Demostración 🎬
 
-¡Puedes probar la aplicación en vivo! [Enlace a la demostración en GitHub Pages](https://tu-enlace-a-la-demostracion.com)
+¡Puedes probar la aplicación en vivo! [Enlace a la demostración en GitHub Pages](https://tu-enlace-a-la-demostracion.co](https://josecondori-ai.github.io/Cuestionario-de-Habilidades-en-frontend/)
 
 ![Cuestionario en acción](./assets/demo-screenshot.png)
 
