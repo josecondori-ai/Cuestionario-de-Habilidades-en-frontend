@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Favicon y hojas de estilo -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Fuentes de Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+
+  <!-- Título del documento -->
+  <title>Frontend cuestionario app</title>
+</head>
+
+<body>
+  <main>
+    <!-- Encabezado superior con el tema seleccionado y el interruptor de modo claro/oscuro -->
+    <article class="row-top">
+      <div class="curr-subject">
+        <div class="button-icon-container">
+          <!-- Ícono del tema actual -->
+          <img class="subject-img" src="./assets/images/icon-css.svg" alt="subject icon">
+        </div>
+       
+        <h2 class="subject-chosen">some Subject</h2>
+      </div>
+      <!-- Interruptor de modo claro/oscuro -->
+      <div class="light-dark-toggle">
+        <div class="sun-container">
+          <img src="" alt="picture of sun">
+        </div>
+        <label class="light-dark-switch" for="checkbox">
+          <input type="checkbox" id="checkbox" />
+          <div class="slider round"></div>
+        </label>
+        <div class="moon-container">
+          <img src="" alt="picture of moon">
+        </div>
+      </div>
+    </article>
+
+    <!-- Inicio del menú de selección de cuestionario -->
+    <article class="start-menu">
+      <div class="left-content">
+        <h1>¡Bienvenidos al <span class="bolded">examen de Frontend!</span></h1>
+        <p>Elija un tema para comenzar.</p>
+      </div>
+
+      <!-- Opciones de temas para el cuestionario -->
+      <div class="choices">
+        <button id="HTML" class="quiz-type">
+          <div class="button-icon-container">
+            <!-- Ícono de HTML -->
+            <img src="./assets/images/icon-html.svg" alt="html icon">
+          </div>HTML
+        </button>
+        <button id="CSS" class="quiz-type">
+          <div class="button-icon-container">
+            <!-- Ícono de CSS -->
+            <img src="./assets/images/icon-css.svg" alt="css icon">
+          </div>CSS
+        </button>
+        <button id="JavaScript" class="quiz-type">
+          <div class="button-icon-container">
+            <!-- Ícono de JavaScript -->
+            <img src="./assets/images/icon-js.svg" alt="javascript icon">
+          </div>JavaScript
+        </button>
+        <button id="Accessibility" class="quiz-type">
+          <div class="button-icon-container">
+            <!-- Ícono de Accesibilidad -->
+            <img src="./assets/images/icon-accessibility.svg" alt="Accessibility icon">
+          </div>Accesibilidad
+        </button>
+        <button id="React" class="quiz-type">
+          <div class="button-icon-container">
+            <!-- Ícono de React -->
+            <img src="./assets/images/react.svg" alt="React icon">
+          </div>React
+        </button>
+        <button id="Bootstrap" class="quiz-type">
+          <div class="button-icon-container">
+            <!-- Ícono de Bootstrap -->
+            <img src="./assets/images/bootstrap.svg" alt="Bootstrap icon">
+          </div>Bootstrap
+        </button>
+      </div>
+    </article>
+    <!-- Fin del menú de selección de cuestionario -->
+
+    <!-- Pantalla de preguntas del cuestionario -->
+    <article class="question-screen">
+      <div class="left-content">
+        <!-- Contador de preguntas y la pregunta actual -->
+        <div class="question-wrapper">
+          <p class="question-count">Pregunta <span class="question-number"><!-- number --></span> de <span class="question-total"><!-- total --></span></p>
+          <h2 class="question">Placeholder</h2>
+        </div>
+        <!-- Barra de progreso -->
+        <div class="progress-bar whole">
+          <div class="progress-bar done"></div>
+        </div>
+      </div>
+
+      <!-- Opciones de respuesta -->
+      <div class="choices options">
+        <button id="A" class="option">
+          <div class="option-box">A</div>
+        </button>
+        <button id="B" class="option">
+          <div class="option-box">B</div>
+        </button>
+        <button id="C" class="option">
+          <div class="option-box">C</div>
+        </button>
+        <button id="D" class="option">
+          <div class="option-box">D</div>
+        </button>
+
+        <!-- Botón para enviar la respuesta -->
+        <button class="submit-answer">Enviar respuesta</button>
+        <!-- Mensaje de advertencia en caso de no seleccionar ninguna opción -->
+        <div class="select-prompt">
+          <img src="./assets/images/icon-error.svg" alt="error icon">
+          <p class="select-prompt-text">Por favor seleccione una respuesta</p>
+        </div>
+      </div>
+    </article>
+    <!-- Fin de la pantalla de preguntas del cuestionario -->
+
+    <!-- Pantalla de resultados finales -->
+    <article class="quiz-complete">
+      <div class="complete-left">
+        <!-- Mensaje de completado y puntuación -->
+        <h1>Prueba completada
+          <span class="scored">Tu puntuacion...</span>
+        </h1>
+      </div>
+
+      <div class="complete-right">
+        <!-- Contenedor de puntuación -->
+        <div class="score-container">
+          <div class="final curr-subject">
+            <div class="button-icon-container">
+              <img class="subject-img" src="./assets/images/icon-css.svg" alt="subject icon">
+            </div>
+            <h2 class="subject-chosen">some Subject</h2>
+          </div>
+          <h1 class="final-score"><!-- score --></h1>
+          <p class="score-out-of">de <span class="complete-question-total">totalQ</span></p>
+        </div>
+        <!-- Botón para reiniciar el cuestionario -->
+        <button class="restart">Jugar de nuevo</button>
+      </div>
+    </article>
+    <!-- Fin de la pantalla de resultados -->
+
+  </main>
+
+  <!-- Script de la lógica del cuestionario -->
+  <script src="app.js"></script>
+</body>
+
+</html>

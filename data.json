@@ -1,0 +1,428 @@
+{
+    "quizzes": [
+        {
+            "title": "HTML",
+            "icon": "./assets/images/icon-html.svg",
+            "questions": [
+                {
+                    "question": "¿Cuál es el propósito del atributo 'defer' en una etiqueta <script>?",
+                    "options": [
+                        "Carga el script inmediatamente",
+                        "Evita la ejecución del script",
+                        "Retrasa la ejecución del script hasta que el documento se haya cargado por completo",
+                        "Carga el script en segundo plano"
+                    ],
+                    "answer": "Retrasa la ejecución del script hasta que el documento se haya cargado por completo"
+                },
+                {
+                    "question": "¿Qué elemento HTML se usa para definir una leyenda para un <fieldset>?",
+                    "options": [
+                        "<legend>",
+                        "<caption>",
+                        "<summary>",
+                        "<label>"
+                    ],
+                    "answer": "<legend>"
+                },
+                {
+                    "question": "¿Qué atributo se usa en el elemento <form> para subir archivos?",
+                    "options": [
+                        "action",
+                        "enctype",
+                        "method",
+                        "target"
+                    ],
+                    "answer": "enctype"
+                },
+                {
+                    "question": "¿Qué etiqueta HTML se utiliza para especificar una lista de opciones predefinidas para un campo de entrada?",
+                    "options": [
+                        "<select>",
+                        "<datalist>",
+                        "<option>",
+                        "<input>"
+                    ],
+                    "answer": "<datalist>"
+                },
+                {
+                    "question": "¿Cuál es el propósito del atributo 'autocomplete' en un formulario HTML?",
+                    "options": [
+                        "Desactiva la validación del formulario",
+                        "Ofrece sugerencias automáticas de valores previamente ingresados",
+                        "Genera contraseñas automáticamente",
+                        "Permite que los campos se rellenen con valores por defecto"
+                    ],
+                    "answer": "Ofrece sugerencias automáticas de valores previamente ingresados"
+                },
+                {
+                    "question": "¿Cuál es la diferencia entre los elementos <strong> y <b>?",
+                    "options": [
+                        "<strong> indica énfasis y <b> solo cambia el estilo a negrita",
+                        "<b> indica énfasis y <strong> solo cambia el estilo a negrita",
+                        "Ambos son intercambiables",
+                        "No hay diferencia, ambos aplican negrita"
+                    ],
+                    "answer": "<strong> indica énfasis y <b> solo cambia el estilo a negrita"
+                },
+                {
+                    "question": "¿Cuál es el valor por defecto del atributo 'target' en un enlace?",
+                    "options": [
+                        "_self",
+                        "_blank",
+                        "_parent",
+                        "_top"
+                    ],
+                    "answer": "_self"
+                },
+                {
+                    "question": "¿Cuál es la diferencia entre <section> y <div> en HTML5?",
+                    "options": [
+                        "<section> tiene un significado semántico y <div> es un contenedor genérico",
+                        "<div> tiene un significado semántico y <section> es un contenedor genérico",
+                        "No hay diferencia",
+                        "<div> está obsoleto en HTML5"
+                    ],
+                    "answer": "<section> tiene un significado semántico y <div> es un contenedor genérico"
+                },
+                {
+                    "question": "¿Qué elemento HTML se usa para incrustar contenido externo interactivo o aplicaciones?",
+                    "options": [
+                        "<iframe>",
+                        "<embed>",
+                        "<object>",
+                        "Todas las anteriores"
+                    ],
+                    "answer": "Todas las anteriores"
+                },
+                {
+                    "question": "¿Qué significa el atributo 'novalidate' en un formulario HTML?",
+                    "options": [
+                        "Desactiva la validación del formulario",
+                        "Valida el formulario automáticamente",
+                        "Impide que el formulario se envíe",
+                        "Genera automáticamente mensajes de error"
+                    ],
+                    "answer": "Desactiva la validación del formulario"
+                }
+            ]
+        },
+        {
+            "title": "CSS",
+            "icon": "./assets/images/icon-css.svg",
+            "questions": [
+                {
+                    "question": "¿Qué propiedad de CSS se utiliza para controlar el orden en el apilamiento de elementos posicionados?",
+                    "options": [
+                        "position",
+                        "z-index",
+                        "stack-order",
+                        "order"
+                    ],
+                    "answer": "z-index"
+                },
+                {
+                    "question": "¿Qué significa la propiedad 'box-sizing: border-box' en CSS?",
+                    "options": [
+                        "El ancho incluye el contenido, padding y border",
+                        "El ancho incluye solo el contenido",
+                        "El ancho incluye contenido y padding, pero no el border",
+                        "El border no se aplica al ancho total"
+                    ],
+                    "answer": "El ancho incluye el contenido, padding y border"
+                },
+                {
+                    "question": "¿Cuál es la diferencia entre 'visibility: hidden' y 'display: none'?",
+                    "options": [
+                        "'visibility: hidden' oculta el elemento pero ocupa espacio, 'display: none' lo elimina del flujo del documento",
+                        "'display: none' oculta el elemento pero ocupa espacio, 'visibility: hidden' lo elimina del flujo",
+                        "Ambos ocultan el elemento y eliminan el espacio que ocupa",
+                        "No hay diferencia"
+                    ],
+                    "answer": "'visibility: hidden' oculta el elemento pero ocupa espacio, 'display: none' lo elimina del flujo del documento"
+                },
+                {
+                    "question": "¿Qué propiedad de CSS se usa para controlar el espacio entre las líneas de texto?",
+                    "options": [
+                        "line-height",
+                        "letter-spacing",
+                        "word-spacing",
+                        "text-spacing"
+                    ],
+                    "answer": "line-height"
+                },
+                {
+                    "question": "¿Cuál es la diferencia entre 'padding' y 'margin' en CSS?",
+                    "options": [
+                        "'Padding' es el espacio dentro del borde del elemento y 'margin' es el espacio fuera del borde",
+                        "'Padding' es el espacio fuera del borde y 'margin' es el espacio dentro del borde",
+                        "Ambos son intercambiables",
+                        "'Margin' solo se usa en bloques y 'padding' en elementos inline"
+                    ],
+                    "answer": "'Padding' es el espacio dentro del borde del elemento y 'margin' es el espacio fuera del borde"
+                },
+                {
+                    "question": "¿Qué propiedad de CSS3 se utiliza para crear transiciones animadas entre los estados de un elemento?",
+                    "options": [
+                        "animation",
+                        "transition",
+                        "keyframes",
+                        "transform"
+                    ],
+                    "answer": "transition"
+                },
+                {
+                    "question": "¿Cómo se crea un diseño de grid en CSS?",
+                    "options": [
+                        "Utilizando 'grid-template-columns' y 'grid-template-rows'",
+                        "Utilizando 'display: block'",
+                        "Utilizando 'position: absolute'",
+                        "Utilizando 'float'"
+                    ],
+                    "answer": "Utilizando 'grid-template-columns' y 'grid-template-rows'"
+                },
+                {
+                    "question": "¿Qué selector CSS tiene mayor especificidad?",
+                    "options": [
+                        "ID selector (#id)",
+                        "Class selector (.class)",
+                        "Element selector (div, p)",
+                        "Universal selector (*)"
+                    ],
+                    "answer": "ID selector (#id)"
+                },
+                {
+                    "question": "¿Qué valor de 'position' permite que un elemento se desplace con la página?",
+                    "options": [
+                        "static",
+                        "fixed",
+                        "relative",
+                        "absolute"
+                    ],
+                    "answer": "fixed"
+                },
+                {
+                    "question": "¿Qué propiedad CSS se usa para aplicar sombras a los elementos?",
+                    "options": [
+                        "box-shadow",
+                        "text-shadow",
+                        "shadow",
+                        "filter"
+                    ],
+                    "answer": "box-shadow"
+                }
+            ]
+        },
+        {
+            "title": "Bootstrap",
+            "icon": "./assets/images/icon-bootstrap.svg",
+            "questions": [
+                {
+                    "question": "¿Cuál es la clase de Bootstrap para alinear un elemento al centro en un contenedor flexible?",
+                    "options": [
+                        "justify-content-center",
+                        "align-center",
+                        "center-content",
+                        "flex-center"
+                    ],
+                    "answer": "justify-content-center"
+                },
+                {
+                    "question": "¿Qué clase de Bootstrap se usa para ocultar un elemento en pantallas pequeñas?",
+                    "options": [
+                        "d-none d-sm-block",
+                        "d-sm-none",
+                        "d-lg-none",
+                        "d-block d-sm-none"
+                    ],
+                    "answer": "d-none d-sm-block"
+                },
+                {
+                    "question": "¿Qué clase de Bootstrap se utiliza para hacer que una imagen sea completamente circular?",
+                    "options": [
+                        "rounded-circle",
+                        "img-rounded",
+                        "rounded-img",
+                        "img-circle"
+                    ],
+                    "answer": "rounded-circle"
+                },
+                {
+                    "question": "¿Cuál es el propósito del sistema de columnas de Bootstrap?",
+                    "options": [
+                        "Crear un diseño de grid responsivo",
+                        "Aplicar colores a los elementos",
+                        "Establecer el tamaño de las fuentes",
+                        "Generar animaciones en los elementos"
+                    ],
+                    "answer": "Crear un diseño de grid responsivo"
+                },
+                {
+                    "question": "¿Qué clase de Bootstrap se usa para hacer que un texto sea alineado a la derecha?",
+                    "options": [
+                        "text-right",
+                        "align-text-right",
+                        "right-align",
+                        "text-align-right"
+                    ],
+                    "answer": "text-right"
+                },
+                {
+                    "question": "¿Qué clase de Bootstrap se usa para hacer que un botón se vea como un enlace?",
+                    "options": [
+                        "btn-link",
+                        "btn-inline",
+                        "btn-hyperlink",
+                        "link-btn"
+                    ],
+                    "answer": "btn-link"
+                },
+                {
+                    "question": "¿Cuál es la clase de Bootstrap para crear un contenedor con un ancho fijo y centrado?",
+                    "options": [
+                        "container",
+                        "container-fluid",
+                        "container-center",
+                        "center-container"
+                    ],
+                    "answer": "container"
+                },
+                {
+                    "question": "¿Qué clase de Bootstrap se usa para aplicar un espaciado de margen a la izquierda de un elemento?",
+                    "options": [
+                        "ml-3",
+                        "pl-3",
+                        "mt-3",
+                        "pt-3"
+                    ],
+                    "answer": "ml-3"
+                },
+                {
+                    "question": "¿Qué clase de Bootstrap se utiliza para que un texto sea resaltado (negrita)?",
+                    "options": [
+                        "font-weight-bold",
+                        "text-bold",
+                        "bold-text",
+                        "text-strong"
+                    ],
+                    "answer": "font-weight-bold"
+                },
+                {
+                    "question": "¿Cuál es la clase de Bootstrap que se usa para hacer que una fila de elementos esté alineada verticalmente al centro en un contenedor flexible?",
+                    "options": [
+                        "align-items-center",
+                        "justify-content-center",
+                        "align-center",
+                        "center-items"
+                    ],
+                    "answer": "align-items-center"
+                }
+            ]
+        },
+        {
+            "title": "React",
+            "icon": "./assets/images/icon-react.svg",
+            "questions": [
+                {
+                    "question": "¿Cuál es la principal diferencia entre un componente funcional y un componente de clase en React?",
+                    "options": [
+                        "Los componentes funcionales pueden usar hooks y los de clase no",
+                        "Los componentes de clase manejan el ciclo de vida de manera diferente",
+                        "Los componentes de clase no pueden manejar eventos",
+                        "Los componentes funcionales son más rápidos que los de clase"
+                    ],
+                    "answer": "Los componentes de clase manejan el ciclo de vida de manera diferente"
+                },
+                {
+                    "question": "¿Cómo puedes prevenir la re-renderización innecesaria de un componente en React?",
+                    "options": [
+                        "Usando `React.memo()`",
+                        "Desactivando el `useEffect`",
+                        "Aplicando `PureComponent` a todos los componentes",
+                        "Usando el hook `useCallback` en todos los eventos"
+                    ],
+                    "answer": "Usando `React.memo()`"
+                },
+                {
+                    "question": "¿Cuál es el propósito de los 'keys' en React y por qué son importantes?",
+                    "options": [
+                        "Para optimizar el rendimiento en listas dinámicas",
+                        "Para identificar eventos en componentes",
+                        "Para manejar los estados de los hooks",
+                        "Para evitar conflictos en el DOM"
+                    ],
+                    "answer": "Para optimizar el rendimiento en listas dinámicas"
+                },
+                {
+                    "question": "¿Cómo se puede manejar el estado compartido entre múltiples componentes en React?",
+                    "options": [
+                        "Lifting state up (subir el estado a un componente padre)",
+                        "Usando el hook `useContext`",
+                        "Aplicando Redux o Context API",
+                        "Todas las anteriores"
+                    ],
+                    "answer": "Todas las anteriores"
+                },
+                {
+                    "question": "¿Cuál es la diferencia principal entre `useEffect` y `useLayoutEffect`?",
+                    "options": [
+                        "`useEffect` se ejecuta después del render, mientras que `useLayoutEffect` antes del renderizado de la pantalla",
+                        "`useEffect` siempre se ejecuta primero y `useLayoutEffect` solo en montajes",
+                        "`useLayoutEffect` bloquea el renderizado hasta que termina, mientras que `useEffect` no",
+                        "`useLayoutEffect` maneja efectos secundarios que alteran el DOM antes del pintado"
+                    ],
+                    "answer": "`useLayoutEffect` maneja efectos secundarios que alteran el DOM antes del pintado"
+                },
+                {
+                    "question": "¿Cómo puedes manejar errores en componentes React?",
+                    "options": [
+                        "Utilizando un 'Error Boundary'",
+                        "Con `try/catch` en el render",
+                        "Aplicando `useErrorHandler`",
+                        "Manejando los errores en `componentDidCatch` en componentes funcionales"
+                    ],
+                    "answer": "Utilizando un 'Error Boundary'"
+                },
+                {
+                    "question": "¿Cuál es la diferencia entre `props` y `state` en React?",
+                    "options": [
+                        "Los `props` son inmutables y el `state` es mutable",
+                        "El `state` se pasa entre componentes, los `props` no",
+                        "Los `props` son para datos estáticos, el `state` es para datos dinámicos",
+                        "No hay diferencia, ambos representan datos internos"
+                    ],
+                    "answer": "Los `props` son inmutables y el `state` es mutable"
+                },
+                {
+                    "question": "¿Qué método del ciclo de vida de un componente de clase se utiliza para realizar operaciones cuando el componente ha sido actualizado?",
+                    "options": [
+                        "componentDidUpdate",
+                        "shouldComponentUpdate",
+                        "componentDidMount",
+                        "componentWillReceiveProps"
+                    ],
+                    "answer": "componentDidUpdate"
+                },
+                {
+                    "question": "¿Qué hook utilizarías para almacenar el valor previo de una variable o estado en un componente funcional?",
+                    "options": [
+                        "useRef",
+                        "useState",
+                        "useMemo",
+                        "useEffect"
+                    ],
+                    "answer": "useRef"
+                },
+                {
+                    "question": "¿Cómo puedes evitar el problema de la dependencia infinita en el hook `useEffect`?",
+                    "options": [
+                        "Añadiendo un array de dependencias adecuado",
+                        "Usando `useMemo` para memorizar valores",
+                        "No utilizando el hook `useEffect`",
+                        "Evitando funciones dentro de `useEffect`"
+                    ],
+                    "answer": "Añadiendo un array de dependencias adecuado"
+                }
+            ]
+        }
+    ]
+}
